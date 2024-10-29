@@ -1,0 +1,137 @@
+#include <stdio.h>
+int main(){
+  int a=10,b=30,c=40,d=21,g; 
+  g=a>b?a:b>c>d?c:d?a>b?a:b:c>d?c:d;
+  printf(g);
+}
+
+10111001-186
+11011100001 -1761
+
+not symbol - ~
+xor symbol - ^
+if we use not number will be number+1 but in negative
+x or gate truth table
+swapping of two variables
+#include<stdio.h>
+int main()
+{
+  int a=7,b=5;
+a=a^b;
+b=a^b;
+a=a^b;  
+printf("%d,%d,a,b);
+}
+
+step 1 
+a=a^b
+=111^101
+010
+b=101
+step - 2
+b=a^b
+010
+111
+a=010
+step - 3
+a=a^b
+010^101b=111
+
+
+
+#include<stdio.h>
+int main(){
+int a=7;
+if(a&1==0) printf("even")
+else
+print("odd");
+}
+
+note : When ever a for loop --> O(N)
+       Nested Loop --> O(N) base don the number of nested loops 
+       recursion --> 0(2N)
+Sorting --> 0(NlogN)
+
+ what is time complexity of the program
+
+
+ t|
+ i| 
+ m|
+ e|
+ r|-------
+
+  input
+
+Root force method 
+     |
+     |
+ better solution
+     |
+     |
+optional solution --> O(N)
+1a broot force method
+#inlude <stdio.h>
+int main()
+{
+ int n,x=0;
+printf("enter the value of n :");
+scanf("%d,&n);
+for(int i=0;i<=n;i++){
+  x=x^i;
+ }
+ printf("%d,x);
+}
+
+
+
+
+
+		
+
+1b optimal methiod 
+#include <stdio.h>
+int main()
+{
+  int n;
+printf("enter the value of n");
+scanf("%d",&n);
+if(n%4==1) printf("%d",1);
+if(n%4==2) printf("%d",n+1);
+if(n%4==3) printf("%d",0);
+if(n%4==0) printf(%d",n);
+}
+
+
+
+2a broot force method
+#inlude <stdio.h>
+int main()
+{
+ int l,r,x=0;
+printf("enter the value of n :");
+scanf("%d,&l);
+printf("enter the value of n :");
+scanf("%d,&r);
+for(int i=l;i<=r;i++){
+  x=x^i;
+ }
+ printf("%d,x);
+}
+output:
+ big 1
+
+
+2b optimal method
+#include <stdio.h>
+int xor(int a)
+{
+  if(a%
+
+  
+    
+
+
+
+
+
